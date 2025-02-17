@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let limiteDaLista = 10;
+let limiteDaLista = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -19,7 +19,7 @@ if ('speechSynthesis' in window){
 
 function exibirMensagemInicial(){
 exibirTexto('h1' , 'Jogo do Número Secreto');
-exibirTexto('p' , 'Escolha um número de 1 a 10:');
+exibirTexto('p' , 'Escolha um número de 1 a 50:');
 }
 exibirMensagemInicial();
 
